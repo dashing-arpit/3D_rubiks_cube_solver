@@ -1,0 +1,19 @@
+{
+  "name": "wasm-rubik-cube-solver",
+  "collaborators": [
+    "Edd Mann <the@eddmann.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "wasm_rubik_cube_solver_bg.wasm",
+    "wasm_rubik_cube_solver.js",
+    "wasm_rubik_cube_solver_bg.js",
+    "wasm_rubik_cube_solver.d.ts"
+  ],
+  "module": "wasm_rubik_cube_solver.js",
+  "types": "wasm_rubik_cube_solver.d.ts",
+  "sideEffects": [
+    "./wasm_rubik_cube_solver.js",
+    "./snippets/*"
+  ]
+}
